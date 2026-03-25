@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>ŞakaKutusu - Kayıt Ol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ŞakaKutusu</h1>
+    <p>Gülmek isteyenler için en eğlenceli içerikler burada!</p>
+</header>
+
+<nav>
+    <a href="index.html">Anasayfa</a>
+    <a href="resimler.html">Komik Resimler</a>
+    <a href="videolar.html">Komik Videolar</a>
+    <a href="kayit.html">Kayıt Ol</a>
+    <a href="giris.html">Giriş Yap</a>
+</nav>
+
+<main>
+
+<section>
+    <h2>Kayıt Ol</h2>
+
+    <form>
+        <label>Ad Soyad:</label>
+        <input type="text" required>
+
+        <label>Kullanıcı Adı:</label>
+        <input type="text" required>
+
+        <label>E-posta:</label>
+        <input type="email" required>
+
+        <label>Şifre:</label>
+        <input type="password" minlength="6" required>
+
+        <label>Şifre Tekrar:</label>
+        <input type="password" minlength="6" required>
+
+        <label>Yaş:</label>
+        <input type="number" min="10" max="100" required>
+
+        <label>Cinsiyet:</label>
+        <select required>
+            <option value="">Seçiniz</option>
+            <option>Kadın</option>
+            <option>Erkek</option>
+        </select>
+
+        <label>
+            <input type="checkbox" required>
+            Kullanım koşullarını kabul ediyorum
+        </label>
+
+        <button type="submit">Kayıt Ol</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 ŞakaKutusu</p>
+</footer>
+
+</body>
+</html>
